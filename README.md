@@ -1,30 +1,30 @@
-Railway Reservation System
+🚂Railway Reservation System
 --------------------------
 A simple C++ console-based application for managing railway train records using Object-Oriented Programming concepts.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Project Overview
+📋 Project Overview
 ------------------
 This Railway Reservation System allows users to manage train information including train details, source, destination, and timings. The system demonstrates fundamental OOP concepts like classes, objects, constructors, destructors, and encapsulation.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Features
+✨Features
 --------
 
-Add New Train Record: Input and store train details
-Display All Train Records: View all stored train information
-Search Train by Number: Find specific train using train number
-Exit: Close the application
+➕Add New Train Record: Input and store train details
+📊Display All Train Records: View all stored train information
+🔍Search Train by Number: Find specific train using train number
+🚪Exit: Close the application
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Technical Specifications
+🛠️Technical Specifications
 ---------------------------
 Classes
 -----
-1. Train Class
+1.🚆 Train Class
 ---------------
 
-Private Data Members:
+🔒Private Data Members:
 -------------------
 
 int trainNumber
@@ -35,7 +35,7 @@ char trainTime[10]
 static int trainCount - Tracks total number of trains
 
 
-Constructors:
+🏗️Constructors:
 ---------------
 
 Default Constructor
@@ -43,13 +43,13 @@ Parameterized Constructor
 Copy Constructor
 
 
-Destructor:
+💥Destructor:
 --------------
 
 Decrements train count and displays message
 
 
-Methods:
+⚙️Methods:
 ----------
 
 Getters for all data members
@@ -57,15 +57,16 @@ display() - Shows train details
 inputTrainDetails() - Takes user input
 static getTrainCount() - Returns total train count
 -------------------------------------------------
-2. RailwaySystem Class
+
+2.🎯 RailwaySystem Class
  -------------------
 
-Private Data Members:
+🔒Private Data Members:
 
 vector<Train> trains - Stores all train records
 
 
-Methods:
+⚙️Methods:
 ----------
 
 addTrain() - Adds train object to system
@@ -75,16 +76,16 @@ searchTrainByNumber() - Searches train by number
 
 -----------------------------------------------------------------------------------
 
-Usage Instructions
+📖Usage Instructions
 -------------
 
-Run the program
-Select from the menu options (1-4)
-Follow on-screen prompts for input
-Use option 4 to exit
+Run the program▶️
+Select from the menu options (1-4)🔢
+Follow on-screen prompts for input⌨️
+Use option 4 to exit🚪
 ---------------------------------------------------------------------------
 
-output:
+💡output:
 -------
 <img width="1040" height="802" alt="Screenshot 2026-01-05 132741" src="https://github.com/user-attachments/assets/31d707b5-a992-425c-9d27-514abb9a323a" />
 ----------------------------------------------------
@@ -93,7 +94,7 @@ output:
 <img width="862" height="575" alt="Screenshot 2026-01-05 132815" src="https://github.com/user-attachments/assets/55479492-5509-4f62-8b15-53e077b58852" />
 -----------------------------------------------
 
-OOP Concepts Used
+🎓OOP Concepts Used
 --------------
 
 Encapsulation: Private data members with public methods
@@ -104,9 +105,9 @@ STL: Vector for dynamic storage
 Const Correctness: Read-only methods marked as const
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Project Criteria
+✅Project Criteria
 ---------------------
-User Input
+📝User Input
 ------
 
 Train Number
@@ -116,7 +117,7 @@ Destination
 Train Time
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Display Requirements
+📺Display Requirements
 ------------------
 
 Display all records
@@ -124,13 +125,13 @@ Display records by searching train number
 Menu-driven approach
 ------------------------------------------------------------------------------------------------------
 
-Minimum Input
+📌Minimum Input
 -------------
 At least three train records should be entered initially for testing.
 -------------------------------------------------------------------------------------------------
 
 
-Notes
+⚠️Notes
 ------
 
 All train data is stored in memory and will be lost when program exits
@@ -139,7 +140,7 @@ Input validation is minimal - enter data carefully
 Program uses character arrays (C-style strings) for text storage
 -----------------------------------------------------------------------------------------------------
 
-Future Enhancements
+🔮Future Enhancements
 -------------------
 
 File I/O for persistent storage
@@ -150,12 +151,12 @@ Search by train name, source, or destination
 Input validation and error handling
 -------------------------------------------------------------------------------------------------
 
-Author
+👨‍💻Author
 -------
 Student Project - C++ Programming Course
 ----------------------------------------------------------------------------------------------
 
-License
+📄License
 -----------
 This project is created for educational purposes.
 
